@@ -1,44 +1,33 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<title>Video Streaming</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>XXXXXXXXXX</title>
 <style>
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: #fff;
+    background: #F5F5F5;
     padding: 20px;
 }
 
-.container {
-    max-width: 720px;
-    margin: auto;
-    padding: 10px;
-
-}
-
-.title {
-    font-size: 18px;
+.video-title {
+    font-size: 1em;
     font-weight: bold;
-    margin: 10px 0;
+    margin-bottom: 15px;
 }
 
-.desc {
-    font-size: 14px;
-    opacity: 0.8;
-    margin-bottom: 10px;
-}
 .video-wrapper {
     position: relative;
     width: 100%;
-    max-height: 420px;
+    max-width: 720px;
+    margin: auto;
 }
 
-
-.video-wrapper video {
+video {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -47,7 +36,6 @@ body {
 /* Iklan overlay */
 .ad-overlay {
     position: absolute;
-    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 320px;
@@ -59,6 +47,14 @@ body {
     z-index: 5;
 }
 
+.ad-top {
+    top: 8px;
+}
+
+.ad-bottom {
+    bottom: 8px;
+}
+
 @media (max-width: 400px) {
     .ad-overlay {
         width: 95%;
@@ -67,39 +63,31 @@ body {
 }
 </style>
 </head>
-
 <body>
-<div class="container">
+  <div class="video-title">XXXXXXXXXX</div>
+    <div class="video-wrapper">
+    <div class="ad-overlay ad-top">
 
-<h3>Video Streaming HD</h3>
-<div class="video-wrapper">
+<script type="text/javascript">
+atOptions = {
+ 'key' : '281ad8525430aef7936dbd51dbb2cc46',
+ 'format' : 'iframe',
+ 'height' : 50,
+ 'width' : 320,
+ 'params' : {}
+};
+</script>
+<script type="text/javascript" src="https://beginshello.com/281ad8525430aef7936dbd51dbb2cc46/invoke.js"></script>
 
-    <video controls autoplay muted playsinline preload="metadata">
-        <source src="https://cdn.videy.co/w5G5YSok1.mp4" type="video/mp4">
-    </video>
-
-    <!-- IKLAN DI DALAM VIDEO -->
-    <div class="ad-overlay">
-        <script type="text/javascript">
-            atOptions = {
-                'key' : 'a56d9957870f34de53762968bb2255c5',
-                'format' : 'iframe',
-                'height' : 50,
-                'width' : 320,
-                'params' : {}
-            };
-        </script>
-        <script src="https://situateddivine.com/a56d9957870f34de53762968bb2255c5/invoke.js"></script>
-    </div>
-<div class="desc">
-    Watch high quality streaming videos without buffering.
 </div>
+ <video autoplay loop playsinline muted controls poster="https://cdn.aceimg.com/6308b4eca.jpg">
+   <source src="https://cdn.videy.co/uLwxBAcT1.mp4" type="video/mp4">
+ </video></div>
+
 <script async="async" data-cfasync="false" src="https://situateddivine.com/d3e082d534e1581e0f78d3cfe456f0d9/invoke.js"></script>
 <div id="container-d3e082d534e1581e0f78d3cfe456f0d9"></div>
-</div>
-</div>
 
-    <!-- Histats.com  START  (aync)-->
+  <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
 _Hasync.push(['Histats.start', '1,4992245,4,511,95,18,00000000']);
 _Hasync.push(['Histats.fasi', '1']);
@@ -111,5 +99,4 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();</script>
 <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4992245&101" alt="" border="0"></a></noscript>
 <!-- Histats.com  END  -->
-</body>
-</html>
+ </body></html>
